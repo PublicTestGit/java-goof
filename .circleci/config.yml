@@ -34,5 +34,5 @@ jobs:
             - ~/.gradle
           key: v1-dependencies-{{ checksum "build.gradle" }}
         
-      - run: bash <(curl -s -L https://github.com/whitesource/fs-agent-distribution/raw/master/standAlone/wss_agent.sh) -apiKey 9ddde6ba71a94f58a76b658e46544a89bf0d1866461d4bbcae244be27a494c87 -projectToken 4bf84067ee7945c393a01855b5406b4e47d3e9375bf94ae590c589725ba47cab -productToken a72ae45a388b452aab16434d1e404fd0796200c40998490996ed8213b859d10a -d ~/
+     # - run: bash <(curl -s -L https://github.com/whitesource/fs-agent-distribution/raw/master/standAlone/wss_agent.sh) -apiKey 9ddde6ba71a94f58a76b658e46544a89bf0d1866461d4bbcae244be27a494c87 -projectToken 4bf84067ee7945c393a01855b5406b4e47d3e9375bf94ae590c589725ba47cab -productToken a72ae45a388b452aab16434d1e404fd0796200c40998490996ed8213b859d10a -d ~/
 
